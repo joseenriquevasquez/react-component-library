@@ -1,7 +1,7 @@
 import { Button, createStyles, makeStyles, Typography } from '@material-ui/core';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
-import { appliedTheme } from '../.storybook/config';
+import { appliedTheme } from '../.storybook/preview';
 import { hideTopBanner, storyWrapper } from '../src/utils';
 import * as Colors from '@pxblue/colors';
 const backgroundImage = require('../assets/circles-bg.svg');
